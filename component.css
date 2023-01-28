@@ -5,15 +5,19 @@
 }
 
 body{
-    background-color:#4cb2cc;
+    background-color: #704705;
     min-height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+#name{
+    color: azure;
+}
+
 .container{
-    background-color:   #757542;
+    background-color:   #211c1c;
     max-width: 300px;
     height: auto;
     display: flex;
@@ -90,3 +94,4 @@ body{
 #keypadBtns .btnsRow button.num_btn:hover, .keypadBtns button.num_btn:active {
     background: #ccccff;
 }
+
